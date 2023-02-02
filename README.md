@@ -12,7 +12,8 @@
 The `trec-pm/` directory should contain the following sub-directories and files:
 
 <details>
-<summary>Directory structure</summary>
+<summary>Directory tree</summary>
+
 ```
 trec-pm/
 ├── dir.txt
@@ -597,4 +598,3 @@ trec-pm/
 
 6 directories, 573 files
 ```
-</details>
