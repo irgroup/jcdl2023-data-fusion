@@ -1,6 +1,6 @@
 # Bibliometric Data Fusion for Biomedical Information Retrieval
 
-This repository accompanies our JCDL'23 submission. It contains the code and results to make the experiments transparent and reproducible. All of the experiments can be reproduced with the help of the [Jupyter Notebook](./main.ipynb). Before rerunning the code, the run data has to be downloaded from TREC (see instructions and more details below).
+> This repository accompanies our JCDL'23 full paper entitled "Bibliometric Data Fusion for Biomedical Information Retrieval". It contains the code and results to make the experiments transparent and reproducible. All of the experiments can be reproduced with the help of the [Jupyter Notebook](./main.ipynb). Before rerunning the code, the run data has to be downloaded from TREC (see instructions and more details below).
 
 ## Overview 
 
