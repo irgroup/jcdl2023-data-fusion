@@ -1,18 +1,25 @@
-### Open points and issues 
+# Bibliometric Data Fusion for Biomedical Information Retrieval
 
-- [x] Testbed for different fusion algorithms (based on ranx) | [Notebook](./fuse.ipynb)
-- [x] Evaluations of TREC PM 2017/18 Abstract task (based on RRF by Cormack et al.) | [Notebook](./fuse.ipynb)
-- [x] Measures: nDCG, AP, P@10, Bpref, MRR | [Experimental results](./experimental_results/)
-- [x] p-values and differences between baseline and fusion runs | [Experimental results](./experimental_results/)
-- [x] run format of TREC PM 2019 Abstract task (additional columns)
-- [ ] IDs in run files of TREC PM CDS tasks do not match with our citations/altmetrics data
-- [ ] missing citations for TREC PM 2020
+This repository accompanies our JCDL'23 submission. It contains the code and results to make the experiments transparent and reproducible. All of the experiments can be reproduced with the help of the [Jupyter Notebook](./main.ipynb). Before rerunning the code, the run data has to be downloaded from TREC (see instructions and more details below).
 
+## Overview 
 
-The `trec-pm/` directory should contain the following sub-directories and files:
+| File/directory | Description| 
+| --- | --- |
+| `main.ipynb` | Code to reproduce the results. |
+| `data/bibliometric.txt` | The bibliometric metadata is a copy of the data that can be found in this [Zenodo archive](https://zenodo.org/record/3719285). |
+| `experimental_results/` | Contains `csv` files with experimental results of the data fusion experiments evaluated with the TREC PM Abstract task from 2017 to 2019. |
+| `figures/` | Contains `pdf` files of the figures. |
+| `trec-pm/` | Should contain compressed TREC run files (see below). |
+| `runs/` | Contains extracted run files. The corresponding code is in the notebook. |
+| `requirements.txt` | Required Python packages (`pandas`, `matplotlib`, `seaborn`, `ranx`). |
+
+## Download run data from TREC
+
+As the run data remains the intellectual property of the TREC participants, we do not distribute the data in this repository. However, it is available from a [password-protected area](http://trec.nist.gov/results/) on the [TREC website](https://trec.nist.gov/) (the `qrels` files are publicly available for [TREC PM 2017](https://trec.nist.gov/data/precmed2017.html), [TREC PM 2018](https://trec.nist.gov/data/precmed2018.html), and [TREC PM 2019](https://trec.nist.gov/data/precmed2019.html)). After registration, the run data can be downloaded and the `trec-pm/` directory should contain the following sub-directories and files:
 
 <details>
-<summary>Directory tree</summary>
+<summary>Directory tree (click to unfold)</summary>
 
 ```
 trec-pm
