@@ -7,7 +7,7 @@
 | File/directory | Description| 
 | --- | --- |
 | `main.ipynb` | Code to reproduce the results. |
-| `data/bibliometric.txt` | The bibliometric metadata is a copy of the data that can be found in this [Zenodo archive](https://zenodo.org/record/3719285). |
+| `data/bibliometric.txt` | The bibliometric metadata is a copy of the data that can be found in this [Zenodo archive](https://zenodo.org/records/5883400). |
 | `experimental_results/` | Contains `csv` files with experimental results of the data fusion experiments evaluated with the TREC PM Abstract task from 2017 to 2019. |
 | `figures/` | Contains `pdf` files of the figures. |
 | `trec-pm/` | Should contain compressed TREC run files (see below). |
